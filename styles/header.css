@@ -1,0 +1,22 @@
+:root{
+    --primario:#E5E5E5;
+    --titulos:#5D04D9;
+    --botones:#C004D9;
+    --oscuro:#000000;
+    --banco:#FFFFFF;
+}
+
+.titulo{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--titulos);
+}
+
+h1{
+    font-family: "jaro", sans-serif;
+    font-size: 25px;
+    color: var(--banco);
+}
+

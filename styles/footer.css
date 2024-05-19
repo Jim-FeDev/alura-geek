@@ -1,0 +1,32 @@
+
+:root{
+    --primario:#E5E5E5;
+    --titulos:#5D04D9;
+    --botones:#C004D9;
+    --oscuro:#000000;
+    --banco:#FFFFFF;
+}
+
+footer{
+    height: 220px;
+    padding: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--titulos);
+}
+
+.titulo-footer{
+    color: var(--banco);
+}
+footer p{
+    color: var(--banco);
+    font-size: 15px;
+}
+@media (min-width: 1036px) {
+    footer{
+        height: 220px;
+    }
+}

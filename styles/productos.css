@@ -1,0 +1,57 @@
+:root{
+    --primario:#E5E5E5;
+    --titulos:#5D04D9;
+    --botones:#C004D9;
+    --oscuro:#000000;
+    --banco:#FFFFFF;
+}
+
+.img-productos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+
+.img-1{
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    background-color: #5D04D9;
+    border-radius: 20px 60px;
+
+}
+.productos-oculto{
+    display: none;
+}
+
+
+@media (min-width: 1036px) {
+    .img-productos{
+        position: absolute;
+        width: 50%;
+        top: 220px;
+        gap: 20px;
+    }
+    .productos-2{
+        position: relative;
+        width: 50%;
+        right:10px;
+        top: -660px;
+        
+    }
+    .productos-oculto{
+        display: block;
+    }
+    .img-productos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 20px;
+    }
+}
+
+
+
